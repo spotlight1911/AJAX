@@ -9,4 +9,5 @@ spl_autoload_register(function ($className){
     return false;
 });
 include_once 'vendor'.DIRECTORY_SEPARATOR.'includes'.DIRECTORY_SEPARATOR.'config.php';
-core\Route::init();
+//$users = new Store;
+//var_dump($users);
