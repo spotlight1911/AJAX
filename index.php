@@ -9,4 +9,8 @@ spl_autoload_register(function ($className){
     return false;
 });
 include_once 'vendor'.DIRECTORY_SEPARATOR.'includes'.DIRECTORY_SEPARATOR.'config.php';
-core\Route::init();
+
+//include_once 'vendor'.DIRECTORY_SEPARATOR.'views'.DIRECTORY_SEPARATOR.'default.php';
+$tmp = new \core\View('index_index');
+$tmp->render();
+//core\Route::init();

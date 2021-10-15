@@ -10,5 +10,6 @@
 </head>
 <body>
     <?php include_once 'vendor'.DIRECTORY_SEPARATOR.'views'.DIRECTORY_SEPARATOR.$this->_page.'.php'?>
+
 </body>
 </html>

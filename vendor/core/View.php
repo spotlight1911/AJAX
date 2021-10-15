@@ -1,7 +1,7 @@
 <?php
 namespace core;
 class View{
-    protected $_page;
+    protected $_page = 'index_index';
     protected $_template = 'default';
 
     public function __construct($page, $template = null)
@@ -15,6 +15,6 @@ class View{
     public function render(array $newsAll = [])
     {
         extract($newsAll);
-        include_once 'vendor' . DIRECTORY_SEPARATOR . 'views' . DIRECTORY_SEPARATOR . $this->_template . '.php';
+        include_once 'vendor' . DIRECTORY_SEPARATOR . 'views' . DIRECTORY_SEPARATOR . $this->_template .'.php';
     }
 }
