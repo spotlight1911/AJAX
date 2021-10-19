@@ -8,8 +8,9 @@ spl_autoload_register(function ($className){
     }
     return false;
 });
-include_once 'vendor'.DIRECTORY_SEPARATOR.'includes'.DIRECTORY_SEPARATOR.'config.php';
 
-$users = ['name'=>'Vova', 'surname'=>'Pupko', 'way'=>'photo/ggg.gif'];
-core\Response::sendJSON($users);
+$view = new \core\View('index_index');
+$view->render();
+
+
 

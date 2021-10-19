@@ -5,12 +5,13 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
     <title>Document</title>
 </head>
 <body>
+<?php include_once 'vendor'.DIRECTORY_SEPARATOR.'views'.DIRECTORY_SEPARATOR.$this->page.'.php'?>
 
-<div id="content">
-
-</div>
+<script src="/js/index.js"></script>
+<script src="/js/store.js"></script>
 </body>
 </html>
