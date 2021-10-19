@@ -8,9 +8,10 @@ spl_autoload_register(function ($className){
     }
     return false;
 });
-
-$view = new \core\View('index_index');
-$view->render();
-
-
-
+$users = [
+    0 =>
+        ['id'=>1,'name'=>'Vova', 'surname'=>'Pupko', 'way'=>'photo/ggg.gif'],
+    1 =>
+        ['id'=>2,'name'=>'ay', 'surname'=>'bol', 'way'=>'photo/fff.gif'],
+];
+core\Response::sendJSON($users);
