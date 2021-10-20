@@ -13,6 +13,6 @@
 
 <script src="/js/index.js"></script>
 <script src="/js/store.js"></script>
-<!--<script src="/js/show.js"></script>-->
+<script src="/js/show.js"></script>
 </body>
 </html>

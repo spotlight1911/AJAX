@@ -11,8 +11,8 @@ xhr.onreadystatechange = function () {
                     '<td>' + value['name'] +'</td>'+
                     '<td>' + value['surname'] +'</td>'+
                     '<td><img src=" ' + value['photo'] +'" alt = "photo"/></td>'+
-                    '<td><button name="create" value="'+key+'">изменить</button></td>'+
-                    '<td><button name="del" value="'+key+'">удалить</button></td>'+
+                    '<td><form method="get"><button name="create_'+value['id']+'" value="'+value['id']+'">изменить</button></form></td>'+
+                    '<td><button name="del" value="'+value['id']+'">удалить</button></td>'+
                     '</tr>'
             }
             document.getElementById('content').innerHTML = content;

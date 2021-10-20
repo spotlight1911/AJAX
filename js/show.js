@@ -1,11 +1,14 @@
-let loadBtn = document.getElementById('load');
-loadBtn.onclick = function () {
+
+let editBtn = document.getElementsByName('create_1');
+editBtn.onclick = function () {
+    alert('ok');
     let xhr = new XMLHttpRequest();
     xhr.onreadystatechange = function () {
         if (xhr.readyState === 4) {
             if (xhr.status === 200) {
                 let respText = xhr.responseText;
                 let names = JSON.parse(respText);
+                console.log(names);
                 let user = Object.entries(names);
                 let userShow = '<table><tr><th>#</th><th>Name</th><th>Surname</th><th>Photo</th></tr><tr>';
                 for(let i=0; i<user.length; i++){
@@ -16,12 +19,13 @@ loadBtn.onclick = function () {
                     }
                 }
                 userShow += '</tr></table>';
-                document.getElementById('content').innerHTML = userShow;
+                document.getElementById('edit_user').innerHTML = userShow;
             } else {
                 console.error('script js 8line bad response from API');
             }
         }
     };
-    xhr.open('GET', '/api.php');
+    xhr.open('GET', '/api_edit.php');
     xhr.send();
 };
+
