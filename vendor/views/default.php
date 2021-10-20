@@ -5,7 +5,7 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-
+    <link rel="stylesheet" href="css/style.css">
     <title>Document</title>
 </head>
 <body>
@@ -13,5 +13,6 @@
 
 <script src="/js/index.js"></script>
 <script src="/js/store.js"></script>
+<!--<script src="/js/show.js"></script>-->
 </body>
 </html>

@@ -8,7 +8,8 @@ spl_autoload_register(function ($className){
     }
     return false;
 });
+include_once 'vendor'.DIRECTORY_SEPARATOR.'includes'.DIRECTORY_SEPARATOR.'config.php';
 $usersStore = new \models\Store();
 $users = $usersStore->allUser();
-
+//var_dump($users);
 core\Response::sendJSON($users);

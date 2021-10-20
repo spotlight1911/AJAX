@@ -10,7 +10,7 @@ xhr.onreadystatechange = function () {
                 content += '<tr><td>' + value['id'] + '</td>' +
                     '<td>' + value['name'] +'</td>'+
                     '<td>' + value['surname'] +'</td>'+
-                    '<td>' + value['way'] +'</td>'+
+                    '<td><img src=" ' + value['photo'] +'" alt = "photo"/></td>'+
                     '<td><button name="create" value="'+key+'">изменить</button></td>'+
                     '<td><button name="del" value="'+key+'">удалить</button></td>'+
                     '</tr>'
