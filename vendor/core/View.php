@@ -10,7 +10,8 @@ class View
         $this->template = $template;
         $this->page = $page;
     }
-    public function render(){
+    public function render(array $newsAll = []){
+        extract($newsAll);
         include_once 'vendor' . DIRECTORY_SEPARATOR . 'views' . DIRECTORY_SEPARATOR . $this->template . '.php';
     }
 }
