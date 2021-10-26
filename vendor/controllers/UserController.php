@@ -1,13 +1,13 @@
 <?php
-namespace controller;
+namespace controllers;
 use core\View;
 use models\Store;
+use core\Route;
 
 class UserController{
     public function index(){
-        $users = new Store();
-        $usersAll = $users->allUsers();
         $view = new View('index_index');
-        $view->render($usersAll);
+        $view->render();
+
     }
 }
