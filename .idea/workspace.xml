@@ -25,12 +25,10 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2e74ab02-3f1b-4adb-8c8a-98d932127234" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/api_edit.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/autoloader.php" afterDir="false" />
+    <list default="true" id="5e500343-4009-4f5b-b7c9-13c10503ad54" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/photos/8.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/api.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/show.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/show.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vendor/views/default.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/views/default.php" afterDir="false" />
@@ -67,6 +65,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
@@ -74,18 +73,20 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Youriy K\PHP\AJAX-1510.local\photos" />
       <recent name="C:\OpenServer\domains\AJAX.local" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="2e74ab02-3f1b-4adb-8c8a-98d932127234" name="Default Changelist" comment="" />
+      <changelist id="5e500343-4009-4f5b-b7c9-13c10503ad54" name="Changes" comment="" />
       <created>1634310713657</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1634310713657</updated>
       <workItem from="1634310715094" duration="3256000" />
+      <workItem from="1635265334472" duration="639000" />
     </task>
     <task id="LOCAL-00001" summary="add empty files">
       <created>1634313606990</created>
@@ -159,47 +160,5 @@
     <MESSAGE value="create api.php" />
     <MESSAGE value="show all user file index.js" />
     <option name="LAST_COMMIT_MESSAGE" value="show all user file index.js" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="617" y="230" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1634318192361">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="617" y="230" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.824@0.0.1536.824" timestamp="1634318192361" />
-    <state x="499" y="167" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1634315473781">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="499" y="167" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1536.824@0.0.1536.824" timestamp="1634315473781" />
-    <state x="393" y="0" key="CommitChangelistDialog2" timestamp="1634743258050">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="393" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1634743258050" />
-    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1634315432085">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1634315432085" />
-    <state x="147" y="65" key="MergeDialog" timestamp="1634741545844">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="147" y="65" key="MergeDialog/0.0.1536.824@0.0.1536.824" timestamp="1634741545844" />
-    <state x="407" y="174" key="MultipleFileMergeDialog" timestamp="1634741545844">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="407" y="174" key="MultipleFileMergeDialog/0.0.1536.824@0.0.1536.824" timestamp="1634741545844" />
-    <state x="549" y="135" key="NewPhpClassDialog" timestamp="1634318167204">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="549" y="135" key="NewPhpClassDialog/0.0.1536.824@0.0.1536.824" timestamp="1634318167204" />
-    <state x="988" y="336" key="NewPhpFileDialog" timestamp="1634745334930">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="988" y="336" key="NewPhpFileDialog/0.0.1536.824@0.0.1536.824" timestamp="1634745334930" />
-    <state x="722" y="148" key="Vcs.Push.Dialog.v2" timestamp="1634313659882">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="722" y="148" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1634313659882" />
-    <state x="586" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1634315268902">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="586" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1634315268902" />
   </component>
 </project>

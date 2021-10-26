@@ -4,4 +4,4 @@
     <table id="edit_user"></table>
 </div>
 <div id = "add_user"></div>
-<?php var_dump($_GET);?>
+<div id="edit"></div>
